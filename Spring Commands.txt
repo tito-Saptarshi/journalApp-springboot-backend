@@ -1,0 +1,50 @@
+.\mvnw spring-boot:run
+
+net stop mongodb
+
+mongodb://localhost:27017
+show dbs
+use school
+show collections
+
+db.students.insertOne({"name" : "Max", "age" : 20})
+
+ db.students.find().pretty()
+
+--------------------------------------
+
+tables = collections
+
+rows = documents
+columns = field
+
+
+normal-----
+
+.\mvnw -jar jar_name(not original)
+
+.\mvnw clean package
+
+test files included-------
+
+.\mvnw clean package -D spring.profiles.active=dev (file name = application-dev.yml) {setting up the properties of JVM which maven will run}
+
+.\mvnw -jar jar_name(not original) --spring.profiles.active=dev {running springboot application and passing arguments (-D --> setting up java system properties in cli) }
+
+---------------
+
+spring.profiles.active = prod
+
+-------------
+
+slf4j (simple logging fasad 4 java)- login abstraction framework of logback
+
+------
+
+logback -- xml (preferred)
+
+.\mvnw clean install sonar:sonar
+
+----------------------------------------------------
+
+controller -> service -> repo
