@@ -19,6 +19,7 @@ public class AppCache {
 
     @PostConstruct
     public void init() {
+//check
         List<ConfigJournalAppEntry> all = configJournalAppRepository.findAll();
         appCache = null;
     }
