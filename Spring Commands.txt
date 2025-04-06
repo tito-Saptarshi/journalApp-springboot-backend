@@ -48,3 +48,5 @@ logback -- xml (preferred)
 ----------------------------------------------------
 
 controller -> service -> repo
+
+starttls - start transport layer security (mail) : enable -> data is encrypted between machine and email server
