@@ -1,5 +1,6 @@
 package com.journal.journalApp.entity;
 
+import com.journal.journalApp.enums.Sentiment;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.NonNull;
@@ -21,6 +22,7 @@ public class JournalEntry {
     private String title;
     private String content;
     private LocalDateTime date;
+    private Sentiment sentiment;
 
 //    public LocalDateTime getDate() {
 //        return date;
