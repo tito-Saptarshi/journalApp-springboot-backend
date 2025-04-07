@@ -1,2 +1,0 @@
-25-04-06 19:15:59.611 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.journal.journalApp.service.EmailServiceTests]: EmailServiceTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration. 
-25-04-06 19:15:59.929 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.journal.journalApp.JournalAppApplication for test class com.journal.journalApp.service.EmailServiceTests 
